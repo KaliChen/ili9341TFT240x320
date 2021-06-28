@@ -1,0 +1,30 @@
+ sudo pip3 install adafruit-circuitpython-rgb-display
+Looking in indexes: https://pypi.org/simple, https://www.piwheels.org/simple
+
+Collecting adafruit-circuitpython-rgb-display
+  Downloading https://www.piwheels.org/simple/adafruit-circuitpython-rgb-display/adafruit_circuitpython_rgb_display-3.10.7-py3-none-any.whl
+Collecting Adafruit-Blinka (from adafruit-circuitpython-rgb-display)
+  Downloading https://www.piwheels.org/simple/adafruit-blinka/Adafruit_Blinka-6.10.2-py3-none-any.whl (177kB)
+    100% |████████████████████████████████| 184kB 268kB/s 
+Collecting adafruit-circuitpython-busdevice (from adafruit-circuitpython-rgb-display)
+  Downloading https://www.piwheels.org/simple/adafruit-circuitpython-busdevice/adafruit_circuitpython_busdevice-5.0.6-py3-none-any.whl
+Collecting sysv-ipc>=1.1.0 (from Adafruit-Blinka->adafruit-circuitpython-rgb-display)
+  Downloading https://www.piwheels.org/simple/sysv-ipc/sysv_ipc-1.1.0-cp37-cp37m-linux_armv7l.whl (68kB)
+    100% |████████████████████████████████| 71kB 94kB/s 
+Collecting Adafruit-PureIO>=1.1.7 (from Adafruit-Blinka->adafruit-circuitpython-rgb-display)
+  Downloading https://www.piwheels.org/simple/adafruit-pureio/Adafruit_PureIO-1.1.9-py3-none-any.whl
+Requirement already satisfied: RPi.GPIO in /usr/lib/python3/dist-packages (from Adafruit-Blinka->adafruit-circuitpython-rgb-display) (0.7.0)
+Collecting rpi-ws281x>=4.0.0 (from Adafruit-Blinka->adafruit-circuitpython-rgb-display)
+  Downloading https://files.pythonhosted.org/packages/c4/72/33686d9d82e3791e0fe1f60f4e5a7c719a09438e56a36fab8d655c97f7a6/rpi_ws281x-4.3.0-cp37-cp37m-linux_armv7l.whl (116kB)
+    100% |████████████████████████████████| 122kB 747kB/s 
+Collecting pyftdi>=0.40.0 (from Adafruit-Blinka->adafruit-circuitpython-rgb-display)
+  Downloading https://files.pythonhosted.org/packages/7f/f0/d1eccc82e727e6fa332529ea5a59e9158a4f906b9cd0c990ca580cdafed1/pyftdi-0.53.1-py3-none-any.whl (141kB)
+    100% |████████████████████████████████| 143kB 925kB/s 
+Collecting Adafruit-PlatformDetect>=3.13.0 (from Adafruit-Blinka->adafruit-circuitpython-rgb-display)
+  Downloading https://www.piwheels.org/simple/adafruit-platformdetect/Adafruit_PlatformDetect-3.14.1-py3-none-any.whl
+Collecting pyusb>=1.0.0 (from pyftdi>=0.40.0->Adafruit-Blinka->adafruit-circuitpython-rgb-display)
+  Downloading https://files.pythonhosted.org/packages/b5/28/b857ac783257f142932b23379d761a3d9becf6deecf5d14075ec19bdb890/pyusb-1.1.1-py3-none-any.whl (58kB)
+    100% |████████████████████████████████| 61kB 1.5MB/s 
+Requirement already satisfied: pyserial>=3.0 in /usr/lib/python3/dist-packages (from pyftdi>=0.40.0->Adafruit-Blinka->adafruit-circuitpython-rgb-display) (3.4)
+Installing collected packages: sysv-ipc, Adafruit-PureIO, rpi-ws281x, pyusb, pyftdi, Adafruit-PlatformDetect, Adafruit-Blinka, adafruit-circuitpython-busdevice, adafruit-circuitpython-rgb-display
+Successfully installed Adafruit-Blinka-6.10.2 Adafruit-PlatformDetect-3.14.1 Adafruit-PureIO-1.1.9 adafruit-circuitpython-busdevice-5.0.6 adafruit-circuitpython-rgb-display-3.10.7 pyftdi-0.53.1 pyusb-1.1.1 rpi-ws281x-4.3.0 sysv-ipc-1.1.0
